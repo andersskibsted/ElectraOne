@@ -6,7 +6,7 @@ This is so far only tested on OSX Monterey, but it should work on PC as well as 
 Put ElectraOne.bwextension in your Bitwig extension folder.
 Put the two mapping and configuration .txt-files in the same folder.
 
-Two do your own mappings, the way and format of the .txt-files are as follows: <br />
+To do your own mappings, the way and format of the .txt-files are as follows: <br />
 (So far only VST3's are supported) <br />
 
 First you have to make a file called config.json and put it in your Bitwig Studio folder in Application Support (on Mac, I don't know where on PC, someone enlighten me and I will add it here)
