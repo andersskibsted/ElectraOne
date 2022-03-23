@@ -5,6 +5,7 @@ This is so far only tested on OSX Monterey, but it should work on PC as well as 
 
 Put ElectraOne.bwextension in your Bitwig extension folder.
 Put the two mapping and configuration .txt-files in the same folder.
+Upload the .epr-preset to your Electra One
 
 To do your own mappings, the way and format of the .txt-files are as follows: <br />
 (So far only VST3's are supported) <br />
