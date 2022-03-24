@@ -7,6 +7,16 @@ Put ElectraOne.bwextension in your Bitwig extension folder.
 Put the two mapping and configuration .txt-files in the same folder.
 Upload the .epr-preset to your Electra One
 
+In Bitwig the controller is set up this way: <br />
+<br />
+    (in) Electra Controller Electra Port 1 <br />
+    (in) Electra Controller Electra Port 2 <br />
+    (out) Electra Controller Electra Port 1 <br />
+    (out) Electra Controller Electra Port 2 <br />
+    
+ This is on Mac, I don't know what the names of the Electra Midi Ports are on Windows, but probably something similar.
+
+
 To do your own mappings, the way and format of the .txt-files are as follows: <br />
 (So far only VST3's are supported) <br />
 
