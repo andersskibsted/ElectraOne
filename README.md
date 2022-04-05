@@ -5,7 +5,7 @@ This is so far only tested on OSX Monterey, but it should work on PC as well as 
 
 Put ElectraOne.bwextension in your Bitwig extension folder.
 Put the two mapping and configuration .txt-files in the same folder.
-Upload the .epr-preset to your Electra One
+Upload the .epr-preset to your Electra One and copy the lua-script int he .lua file to the preset, using the Electra One-editor.
 
 In Bitwig the controller is set up this way: <br />
 <br />
