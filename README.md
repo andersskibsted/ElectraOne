@@ -45,7 +45,7 @@ MDynamics <br />
 
 
 deviceParameterMappings.txt: <br />
-First the name of VST3 exactly as it is in Bitwig. < br/>
+First the name of VST3 exactly as it is in Bitwig. <br />
 Next the parameter numbers seperated by one space. Some devices have meaningful numberings, some have not (Plugin Alliance plugins for example...)
 You get the parameter numbers by right clicking on the parameter in Bitwig and pressing "Copy Parameter ID to Clipboard"
 The sequence of numbers for the mapping should start with always start with a 0. The first entry is not used.
