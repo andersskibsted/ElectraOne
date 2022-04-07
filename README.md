@@ -5,6 +5,17 @@ This is so far only tested on OSX Monterey, but it should work on PC as well as 
 
 Put ElectraOne.bwextension in your Bitwig extension folder.
 Put the two mapping and configuration .txt-files in the same folder.
+Upload the .epr-preset to your Electra One and copy the lua-script int he .lua file to the preset, using the Electra One-editor.
+
+In Bitwig the controller is set up this way: <br />
+<br />
+    (in) Electra Controller Electra Port 1 <br />
+    (in) Electra Controller Electra Port 2 <br />
+    (out) Electra Controller Electra Port 1 <br />
+    (out) Electra Controller Electra Port 2 <br />
+    
+ This is on Mac, I don't know what the names of the Electra Midi Ports are on Windows, but probably something similar.
+
 
 To do your own mappings, the way and format of the .txt-files are as follows: <br />
 (So far only VST3's are supported) <br />
@@ -34,7 +45,7 @@ MDynamics <br />
 
 
 deviceParameterMappings.txt: <br />
-First the name of VST3 exactly as it is in Bitwig. < br/>
+First the name of VST3 exactly as it is in Bitwig. <br />
 Next the parameter numbers seperated by one space. Some devices have meaningful numberings, some have not (Plugin Alliance plugins for example...)
 You get the parameter numbers by right clicking on the parameter in Bitwig and pressing "Copy Parameter ID to Clipboard"
 The sequence of numbers for the mapping should start with always start with a 0. The first entry is not used.
